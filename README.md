@@ -7,6 +7,7 @@
 <p>docker-compose up</p>
 
 <h3>dockerのbackend側(node.js(express.js))の起動</h3>
+<p>.envファイルを作成してください（聞いてね）</p>
 <p>docker exec -u node -it back /bin/bash</p>
 <p>backendの起動の仕方</p>
 <p>npm install</p>
@@ -20,6 +21,7 @@
 
 
 <h3>dockerのfrontend側(React)の起動</h3>
+<p>.envファイルを作成してください（聞いてね）</p>
 <p>docker exec -u node -it front /bin/bash</p>
 <p>cd app</p>
 <p>npm install</p>
